@@ -10,3 +10,7 @@ v2 (02/24/2022):
 - Operations Menu 
 - Print "Invalid" if a number different from the ones available on the menu is chosen
 - Print "Invalid" if 0 is used as divisor
+
+v3 (02/25/2022):
+- Root added (second number typed works as radical)
+- Bhaskara's formula - Added option to add other number (total of 3) when Bhaskara is selected
