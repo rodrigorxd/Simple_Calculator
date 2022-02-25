@@ -2,10 +2,10 @@
 
 Updates are on the way.
 
-1.0v (02/24/2022):
+v1 (02/24/2022):
 - + , - , *, /
 
-2.0v (02/24/2022):
+v2 (02/24/2022):
 - New Operations (^, %) 
 - Operations Menu 
 - Print "Invalid" if a number different from the ones available on the menu is chosen
