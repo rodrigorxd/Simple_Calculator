@@ -8,8 +8,9 @@ print("-----Simple Calculator-----")
 
 print("\n 1 - + \n 2 - - \n 3 - * \n 4 - / \n 5 - ^ \n 6 - % \n 7 - Root \n 8 - Bhaskara's \n \n Choose an operation:")
 sign = int(input())
-num1 = int(input("Type the first number:"))
-num2 = int(input("Type the second number:"))
+print("Example: First Number(a), Second Number(b) = a(radicand), b(index)")
+num1 = float(input("Type the first number:"))
+num2 = float(input("Type the second number:"))
 
 #Decision taking structure (bhaskara) + calculating delta
 
@@ -17,10 +18,12 @@ if sign == 8:
     if num1 == 0:
         print("Invalid.")
     else :
-        num3 = int(input("Type the third number:"))
-        delta = int(((num2) ** 2) - (4 * (num1 * num3)))
+        num3 = float(input("Type the third number:"))
+        delta = float(((num2) ** 2) - (4 * (num1 * num3)))
 
-#Delta = 0 - No real roots (line 50 - 51)
+#Delta < 0 - No real roots
+
+#Root - when index is even, radicand can't be negative
 
 #Operation choice should be between 1 and 8
 
@@ -45,15 +48,16 @@ if choice == True :
     if sign == 6:
         print("The result is:", ((num1)/(100)) * (num2))
     if sign == 7:
-        print("The result is:", (num1) ** (1/num2))
+        if num2 % 2 == 0 and num1 < 0:
+            print("Invalid.")
+        else:
+            print("The result is:", num1 ** (1 / num2))
     if sign == 8:
-        if delta == 0:
+        if delta < 0 and delta != 0:
             print("No real roots.")
         else :
             print("The result is: ", ((-num2) + (delta) ** (1/2)) / (2 * num1))
             print("The result is: ", ((-num2) - (delta) ** (1/2)) / (2 * num1))
-
 else :
-    print("Invalid.")
+    print("Invalid operation choice.")
 
-#sq.root_added and bhaskara
