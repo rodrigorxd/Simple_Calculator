@@ -3,7 +3,7 @@
 Updates are on the way.
 
 v1 (02/24/2022):
-- + , - , *, /
+- .+ , - , *, /
 
 v2 (02/24/2022):
 - New Operations (^, %) 
