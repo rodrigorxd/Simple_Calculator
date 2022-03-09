@@ -53,11 +53,10 @@ if choice == True :
         else:
             print("The result is:", num1 ** (1 / num2))
     if sign == 8:
-        if delta < 0 and delta != 0:
+        if delta < 0 :
             print("No real roots.")
         else :
             print("The result is: ", ((-num2) + (delta) ** (1/2)) / (2 * num1))
             print("The result is: ", ((-num2) - (delta) ** (1/2)) / (2 * num1))
 else :
     print("Invalid operation choice.")
-
