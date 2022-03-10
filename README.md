@@ -1,4 +1,5 @@
 "Simple Calculator" was my first Python project using what I learned in my first Software Engineering class.
+Date format US (MM/DD/YYYY).
 
 Updates are on the way.
 
@@ -13,4 +14,5 @@ v2 (02/24/2022):
 
 v3 (02/25/2022):
 - Root added (second number typed works as index)
-- Bhaskara's formula - Added option to add other number (total of 3) when Bhaskara is selected
+- Bhaskara's formula - Added option to add other number (total of 3) when Bhaskara is selected 
+
