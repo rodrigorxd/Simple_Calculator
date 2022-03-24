@@ -16,3 +16,7 @@ v3 (02/25/2022):
 - Root added (second number typed works as index)
 - Bhaskara's formula - Added option to add other number (total of 3) when Bhaskara is selected 
 
+v4 (03/24/2022):
+
+- Optimization (more "else" structure and less "print" lines)
+- Area of geometric shapes added
