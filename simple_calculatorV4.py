@@ -101,12 +101,19 @@ if operation == 9:
                 else:
                     total = ((minor_base + major_base) * height) / 2
 
-if operation >= 1 and operation <= 6 or operation == 9:
+if operation >= 1 and operation <= 6:
     if operation == 4:
         if num2 != 0:
             print(f"Result = {total}")
     else:
         print(f"Result = {total}")
+
+if operation == 9:
+    if geometric >= 1 and geometric <= 5:
+        print(f"Result = {total}")        
+
+
+    
 
 
 
