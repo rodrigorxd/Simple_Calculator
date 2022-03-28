@@ -33,7 +33,7 @@ else:
             if geometric < 1 or geometric > 5:
                 print("Invalid choice.")
             else:
-                if geometric >= 1 and geometric <= 3:
+                if geometric <= 3:
                     side1 = float(input("Type the side/base:"))
                     side2 = float(input("Type the side/height:"))
                 else:
@@ -96,7 +96,7 @@ if operation == 9:
                 total = (side1 * side2) / 2
             else:
                 if geometric == 4:
-                    total = radius * 3.14
+                    total = (radius ** 2) * 3.14
                 else:
                     total = ((minor_base + major_base) * height) / 2
 
