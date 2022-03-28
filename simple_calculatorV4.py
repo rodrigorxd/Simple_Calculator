@@ -32,6 +32,7 @@ else:
         else:
             if geometric < 1 or geometric > 5:
                 print("Invalid choice.")
+                total = 0
             else:
                 if geometric <= 3:
                     side1 = float(input("Type the side/base:"))
