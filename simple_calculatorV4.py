@@ -61,6 +61,8 @@ else:
                     total = num1 / num2
                 else:
                     print("Invalid.")
+                print(f"Result = {total}")    
+                    
 if operation == 5:
     total = num1 ** num2
 else:
@@ -87,7 +89,6 @@ if operation == 8:
             total1 = ((-num2) + ((delta) ** (1/2))) / (2 * num1)
             total2 = ((-num2) - ((delta) ** (1/2))) / (2 * num1)
             print(f"Result: {total1} , {total2}")
-
 if operation == 9:
     if geometric >= 1 and geometric <= 5:
         if geometric <= 2:
@@ -100,6 +101,8 @@ if operation == 9:
                     total = (radius ** 2) * 3.14
                 else:
                     total = ((minor_base + major_base) * height) / 2
+        print(f"Result = {total}")
+
 
 if operation >= 1 and operation <= 6:
     if operation == 4:
@@ -108,12 +111,6 @@ if operation >= 1 and operation <= 6:
     else:
         print(f"Result = {total}")
 
-if operation == 9:
-    if geometric >= 1 and geometric <= 5:
-        print(f"Result = {total}")        
-
-
-    
 
 
 
