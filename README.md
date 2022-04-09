@@ -24,4 +24,4 @@ v4 (03/24/2022):
 
 v5 (04/09/2022):
 
--Loop structure (continue or quit with "while")
+- Loop structure (continue or quit with "while")
