@@ -21,3 +21,7 @@ v4 (03/24/2022):
 
 - Optimization (more "else" structure and less "print" lines)
 - Area of geometric shapes added
+
+v5 (04/09/2022):
+
+-Loop structure (continue or quit with "while")
